@@ -11,17 +11,169 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <!-- JQuery -->
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="app.css">
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
-<p>ddawawd</p>
+    <div class="row navigation">
+        <div class="col-lg-6 nav-logo">
+            <img src="slice/2015_08_13/logo.png">
+        </div>
+        <div class="col-lg-5">
+            <div class="col-lg-10 nav-options">
+                <div class="col-lg-2 active"><a href="javascript:void(0)">Home</a></div>
+                <div class="col-lg-2"><a href="javascript:void(0)">Features</a></div>
+                <div class="col-lg-2"><a href="javascript:void(0)">FAQ</a></div>
+                <div class="col-lg-3"><a href="javascript:void(0)">Contact Us</a></div>
+            </div>
+        </div>
+        <div class="col-lg-1 nav-search">
+            <img src="slice/2015_08_13/bt_Search.png">
+        </div>
+    </div>
 
-<script src="bower_components/angular/angular.js"></script>
-<script src="bower_components/angular-route/angular-route.js"></script>
-<script src="app.js"></script>
-<script src="components/version/version.js"></script>
-<script src="components/version/version-directive.js"></script>
-<script src="components/version/interpolate-filter.js"></script>
+    <div class="row welcome">
+        <div class="col-lg-6 welcome-phone">
+            <img src="slice/2015_08_13/sm1_phone.png">
+        </div>
+        <div class="col-lg-4 welcome-text">
+            <div><h3>Welcome to the future</h3>
+            <p>JavaScript (/ˈdʒɑːvəˌskrɪpt/[5]) is a high-level, dynamic, untyped, and interpreted programming language.[6] It has been standardized in the ECMAScript language specification.[7] Alongside HTML and CSS, it is one of the three essential technologies of World Wide Web content production; the majority of websites employ it and it is supported by all modern web browsers without plug-ins.[6] JavaScript is prototype-based with first-class functions, making it a multi-paradigm language, supporting object-oriented,[8] imperative, and functional programming styles.[6]</p></div>
+            <img src="slice/google-play-badge.png">
+        </div>
+        <div class="col-lg-1 col-lg-offset-1 welcome-nav">
+            <div>
+                <img src="slice/2015_08_13/sm_active.png" class="active">
+                <img src="slice/2015_08_13/sm_2.png">
+                <img src="slice/2015_08_13/sm_2.png">
+                <img src="slice/2015_08_13/sm_2.png">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row features">
+        <div class="col-lg-12 title">
+            <div class="col-lg-4 col-lg-offset-3">
+                <p>FEATURES</p>
+            </div>
+        </div>
+        <div>
+            <div class="col-lg-6 features-img">
+                <img src="slice/2015_08_13/f_img_6.png">
+            </div>
+            <div class="col-lg-4 features-text">
+                <div>
+                    <h3>Fast and Safe</h3>
+                    <p>AngularJS (commonly referred to as "Angular" or "Angular.js") is an open-source web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row features-list">
+        <div class="col-lg-1 col-lg-offset-3">
+            <div class="circle google"><img src="slice/ic_fingerprint_white_24dp/web/ic_fingerprint_white_24dp_2x.png" class="img-circle"></div>
+        </div>
+        <div class="col-lg-1">
+            <div class="circle group"><img src="slice/ic_chat_white_24dp/web/ic_chat_white_24dp_2x.png" class="img-circle"></div>
+        </div>
+        <div class="col-lg-1">
+            <div class="circle voice"><img src="slice/ic_voice_chat_white_24dp/web/ic_voice_chat_white_24dp_2x.png" class="img-circle"></div>
+        </div>
+        <div class="col-lg-1">
+            <div class="circle ping"><img src="slice/ic_description_white_24dp/web/ic_description_white_24dp_2x.png" class="img-circle"></div>
+        </div>
+        <div class="col-lg-1">
+            <div class="circle emoji"><img src="slice/ic_insert_emoticon_white_24dp/web/ic_insert_emoticon_white_24dp_2x.png" class="img-circle"></div>
+        </div>
+        <div class="col-lg-1">
+            <div class="circle fast"><img src="slice/ic_send_white_24dp/web/ic_send_white_24dp_2x.png" class="img-circle"></div>
+        </div>
+
+        <div class="col-lg-1 col-lg-offset-3">
+            <p><strong>Google</strong></br>MATERIAL</br><strong>Design</strong></p>
+        </div>
+        <div class="col-lg-1">
+            <p><strong>Group</strong></br>AND</br><strong>Direct Chat</strong></p>
+        </div>
+        <div class="col-lg-1">
+            <p><strong>Voice</strong></br>AND</br><strong>Video Calls</strong></p>
+        </div>
+        <div class="col-lg-1">
+            <p><strong>Ping'arts</strong></br>FEATURE</br><strong></strong></p>
+        </div>
+        <div class="col-lg-1">
+            <p><strong>Emoji</strong></br>AND</br><strong>GIF's</strong></p>
+        </div>
+        <div class="col-lg-1">
+            <p><strong>Fast</strong></br>AND</br><strong>Safe!</strong></p>
+        </div>
+    </div>
+
+    <div class="row FAQ">
+        <div class="col-lg-6 col-lg-offset-3 FAQ-title">
+            <p>FAQ</p>
+        </div>
+        <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-6 FAQ-content">
+                <ul>
+                    <li>Какие данные собирает компания Google?</li>
+                    <li>Как обеспечить собственную безопасность в Интернете?</li>
+                    <li>Какие данные собирает компания Google?</li>
+                    <li>Как обеспечить собственную безопасность в Интернете?</li>
+                    <li>Какие данные собирает компания Google?</li>
+                    <li>Как обеспечить собственную безопасность в Интернете?</li>
+                </ul>
+            </div>
+            <div class="col-lg-6 FAQ-content">
+                <ul>
+                    <li>Какие данные собирает компания Google?</li>
+                    <li>Как обеспечить собственную безопасность в Интернете?</li>
+                    <li>Какие данные собирает компания Google?</li>
+                    <li>Как обеспечить собственную безопасность в Интернете?</li>
+                    <li>Какие данные собирает компания Google?</li>
+                    <li>Как обеспечить собственную безопасность в Интернете?</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row contact">
+        <div class="col-lg-6 col-lg-offset-3 contact-title">
+            <p>Contact Us</p>
+        </div>
+        <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-5">
+                <div class="contact-info">
+                    <p class="contact-text-title">Welcome to the future</p>
+                    <p class="contact-text">You can use the before or after pseudo-element and apply some CSS to it. There are various ways. You can add both before and after, and rotate and position each of them to form one of the bars. An easier solution is adding two borders to just the before element and rotate it using transform: rotate.</p>
+                    <p class="rights">2015 © All Rights Reserved</p>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <img src="slice/2015_08_13/logo_emblema.png" class="active">
+            </div>
+            <div class="col-lg-5">
+                <form class="contact-input">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email" value="artsdpua@">
+                    <p>Hello!Nice app!!!</p>
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="components/version/version.js"></script>
+    <script src="components/version/version-directive.js"></script>
+    <script src="components/version/interpolate-filter.js"></script>
 </body>
 </html>
