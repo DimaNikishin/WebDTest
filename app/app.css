@@ -448,15 +448,5 @@ input:focus{
 }
 
 .contact.hidden-lg {
-    background-position: -380px -200px, -850px -550px;
+    background-position: -230px -100px, -850px -550px;
 }
-
-/*.contact.hidden-lg{*/
-
-    /*background-image: url(slice/2015_08_13/home_bg_bot.png), url(slice/2015_08_13/cnt_bg_top.png);*/
-
-    /*background-repeat  : no-repeat, no-repeat;*/
-
-    /*background-position: 350px -100px, -850px -550px;*/
-
-/*}*/
