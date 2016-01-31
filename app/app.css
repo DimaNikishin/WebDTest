@@ -379,9 +379,17 @@ input:focus{
     display: inline-block; !important;
     margin: 2%;
     text-align: center;
+    border-radius: 20px;
+    width: 20px;!important;
+    height: 20px;!important;
+    opacity: 0.4;
+}
+
+.col-xs-12.features-nav img.active{
+    opacity: 1;
 }
 
 .col-xs-12.features-nav div{
-    width: 40%;!important;
+    width: 60%;!important;
     margin: 7% auto;
 }
