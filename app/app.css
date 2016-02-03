@@ -380,14 +380,16 @@ input:focus{
     height: 40%;
 }
 
-.col-xs-6.features-img{
+.col-xs-8.features-img{
     height: 100%;!important;
 }
 
-.col-xs-6.features-img img{
+.col-xs-8.features-img img{
     height: 80%;!important;
     width: auto;!important;
     float: none;!important;
+    margin-left: 10%;!important;
+    margin-right: 10%;!important;
 }
 
 .col-xs-12.features-text div{
