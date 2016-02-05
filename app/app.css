@@ -7,7 +7,7 @@ html,body {
     margin-right: 0;!important;
 }
 
-.features.hidden-xs p,h3{
+.features.hidden-xs p h3{
     opacity: 0;!important;
 
 }
